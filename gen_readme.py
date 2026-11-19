@@ -71,7 +71,7 @@ def main():
     lines.append("Full data (all precisions, runtimes, per-cell job IDs, failure notes):")
     lines.append("[qcs-bench leaderboard](https://github.com/anguoyang/qcs-bench) — `data/leaderboard.json` is the single source of truth;")
     lines.append("this table is generated from it by `gen_readme.py`. The Hugging Face shelf for the same")
-    lines.append("collection: [Edge AI on Qualcomm — Measured Recipes](https://huggingface.co/collections/anguoyang/edge-ai-on-qualcomm-measured-recipes-6af6783416f932ebae149279).")
+    lines.append("collection: [qcs-model-zoo](https://huggingface.co/collections/anguoyang/qcs-model-zoo-6af6783416f932ebae149279).")
     lines.append("")
     lines.append("## How entries are measured")
     lines.append("")

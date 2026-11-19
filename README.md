@@ -38,7 +38,7 @@ numbers, the card says so and states the protocol difference.
 Full data (all precisions, runtimes, per-cell job IDs, failure notes):
 [qcs-bench leaderboard](https://github.com/anguoyang/qcs-bench) — `data/leaderboard.json` is the single source of truth;
 this table is generated from it by `gen_readme.py`. The Hugging Face shelf for the same
-collection: [Edge AI on Qualcomm — Measured Recipes](https://huggingface.co/collections/anguoyang/edge-ai-on-qualcomm-measured-recipes-6af6783416f932ebae149279).
+collection: [qcs-model-zoo](https://huggingface.co/collections/anguoyang/qcs-model-zoo-6af6783416f932ebae149279).
 
 ## How entries are measured
 
