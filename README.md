@@ -26,8 +26,12 @@ numbers, the card says so and states the protocol difference.
 | YOLOv11-N | object_detection | 1x3x640x640 | 5.0 ms (w8a8) | [card](https://huggingface.co/anguoyang/yolo11n) |
 | YOLOv8-S | object_detection | 1x3x640x640 | 5.0 ms (w8a8) | data row |
 | DeepLabV3+ MobileNet | segmentation | 1x3x520x520 | 154.7 ms (float) | [card](https://huggingface.co/anguoyang/deeplabv3-plus-mobilenet-qcs6490) |
+| SegFormer Base | segmentation | 1x3x512x512 | 97.6 ms (float) | [card](https://huggingface.co/anguoyang/segformer-base-qcs6490) |
 | Depth Anything V2 | depth_estimation | 1x3x518x518 | 1,589.6 ms (float) | [card](https://huggingface.co/anguoyang/depth-anything-v2-qcs6490) |
 | MoveNet | pose_estimation | 1x3x192x192 | 17.7 ms (float) | [card](https://huggingface.co/anguoyang/movenet-qcs6490) |
+| PoseNet MobileNet | pose_estimation | 1x3x513x257 | 23.0 ms (float) | [card](https://huggingface.co/anguoyang/posenet-mobilenet-qcs6490) |
+| QuickSRNet Medium | super_resolution | 1x3x128x128 | 12.9 ms (float) | [card](https://huggingface.co/anguoyang/quicksrnet-medium-qcs6490) |
+| Real-ESRGAN x4plus | super_resolution | 1x3x128x128 | 1,639.8 ms (float) | [card](https://huggingface.co/anguoyang/real-esrgan-x4plus-qcs6490) |
 | SESR-M5 | super_resolution | 1x3x128x128 | 40.4 ms (float) | [card](https://huggingface.co/anguoyang/sesr-m5-qcs6490) |
 | TrOCR | ocr | 1x3x384x384 | 476.1 ms (float) | [card](https://huggingface.co/anguoyang/trocr-qcs6490) |
 

@@ -19,6 +19,10 @@ CARD = {
     "depth-anything-v2": "anguoyang/depth-anything-v2-qcs6490",
     "movenet": "anguoyang/movenet-qcs6490",
     "sesr-m5": "anguoyang/sesr-m5-qcs6490",
+    "posenet-mobilenet": "anguoyang/posenet-mobilenet-qcs6490",
+    "quicksrnet-medium": "anguoyang/quicksrnet-medium-qcs6490",
+    "real-esrgan-x4plus": "anguoyang/real-esrgan-x4plus-qcs6490",
+    "segformer-base": "anguoyang/segformer-base-qcs6490",
     "trocr": "anguoyang/trocr-qcs6490",
 }
 GENAI_TEXT = {
