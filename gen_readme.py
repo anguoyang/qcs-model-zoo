@@ -24,13 +24,14 @@ CARD = {
     "real-esrgan-x4plus": "anguoyang/real-esrgan-x4plus-qcs6490",
     "segformer-base": "anguoyang/segformer-base-qcs6490",
     "trocr": "anguoyang/trocr-qcs6490",
+    "openai-clip": "anguoyang/openai-clip-qcs6490",
 }
 GENAI_TEXT = {
     "qwen3-0.6b": "prefill 1,555 tok/s · decode 24.6 tok/s (w4a16, cl512)",
     "llama-3.2-1b-instruct": "prefill 1,024 tok/s · decode 16.4 tok/s (w4a16, cl512)",
     "internvl3.5-2b": "partial — 6 of 9 graphs measured; model not supported on RB3 Gen 2 (see card)",
 }
-TASK_ORDER = ["genai", "text_embedding", "image_retrieval", "image_classification",
+TASK_ORDER = ["genai", "text_embedding", "image_retrieval", "multimodal_retrieval", "image_classification",
               "object_detection", "segmentation", "depth_estimation", "pose_estimation",
               "super_resolution", "ocr"]
 
