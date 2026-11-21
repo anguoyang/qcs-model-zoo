@@ -34,6 +34,7 @@ numbers, the card says so and states the protocol difference.
 | QuickSRNet Medium | super_resolution | 1x3x128x128 | 12.9 ms (float) | [card](https://huggingface.co/anguoyang/quicksrnet-medium-qcs6490) |
 | Real-ESRGAN x4plus | super_resolution | 1x3x128x128 | 1,639.8 ms (float) | [card](https://huggingface.co/anguoyang/real-esrgan-x4plus-qcs6490) |
 | SESR-M5 | super_resolution | 1x3x128x128 | 40.4 ms (float) | [card](https://huggingface.co/anguoyang/sesr-m5-qcs6490) |
+| EasyOCR | ocr | 1x3x608x800 | 515.1 ms (float) | [card](https://huggingface.co/anguoyang/easyocr-qcs6490) |
 | TrOCR | ocr | 1x3x384x384 | 476.1 ms (float) | [card](https://huggingface.co/anguoyang/trocr-qcs6490) |
 
 Full data (all precisions, runtimes, per-cell job IDs, failure notes):
