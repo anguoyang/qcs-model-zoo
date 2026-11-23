@@ -27,6 +27,8 @@ CARD = {
     "openai-clip": "anguoyang/openai-clip-qcs6490",
     "easyocr": "anguoyang/easyocr-qcs6490",
     "midas": "anguoyang/midas-qcs6490",
+    "siglip2": "anguoyang/siglip2-qcs6490",
+    "mobilenet-v3-small": "anguoyang/mobilenet-v3-small-qcs6490",
 }
 GENAI_TEXT = {
     "qwen3-0.6b": "prefill 1,555 tok/s · decode 24.6 tok/s (w4a16, cl512)",
