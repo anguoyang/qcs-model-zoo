@@ -29,6 +29,11 @@ CARD = {
     "midas": "anguoyang/midas-qcs6490",
     "siglip2": "anguoyang/siglip2-qcs6490",
     "mobilenet-v3-small": "anguoyang/mobilenet-v3-small-qcs6490",
+    "densenet121": "anguoyang/densenet121-qcs6490",
+    "cvt": "anguoyang/cvt-qcs6490",
+    "detr-resnet50": "anguoyang/detr-resnet50-qcs6490",
+    "ddrnet23-slim": "anguoyang/ddrnet23-slim-qcs6490",
+    "esrgan": "anguoyang/esrgan-qcs6490",
 }
 GENAI_TEXT = {
     "qwen3-0.6b": "prefill 1,555 tok/s · decode 24.6 tok/s (w4a16, cl512)",

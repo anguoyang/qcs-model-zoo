@@ -21,19 +21,24 @@ numbers, the card says so and states the protocol difference.
 | NetVLAD | image_retrieval | 1x3x480x640 | 218.9 ms (float) | [card](https://huggingface.co/anguoyang/netvlad-qcs6490) |
 | OpenAI CLIP ViT-B/32 | multimodal_retrieval | 1x3x224x224 + 1x5x77 tokens | 964.1 ms (float) | [card](https://huggingface.co/anguoyang/openai-clip-qcs6490) |
 | SigLIP2 image encoder | multimodal_retrieval | 1x3x224x224 | 477.0 ms (float) | [card](https://huggingface.co/anguoyang/siglip2-qcs6490) |
+| DenseNet-121 | image_classification | 1x3x224x224 | 38.4 ms (float) | [card](https://huggingface.co/anguoyang/densenet121-qcs6490) |
 | EfficientNet-Lite4 | image_classification | 1x3x300x300 | 28.0 ms (float) | [card](https://huggingface.co/anguoyang/efficientnet-lite4-qcs6490) |
 | MobileNetV3-Small | image_classification | 1x3x224x224 | 3.7 ms (float) | [card](https://huggingface.co/anguoyang/mobilenet-v3-small-qcs6490) |
 | DAMO-YOLO-S | object_detection | 1x3x640x640 | 13.3 ms (w8a8) | [card](https://huggingface.co/anguoyang/damoyolo) |
+| DETR-ResNet50 | object_detection | 1x3x640x640 | 414.9 ms (float) | [card](https://huggingface.co/anguoyang/detr-resnet50-qcs6490) |
 | NanoDet-Plus-m 416 | object_detection | 1x3x416x416 | 6.5 ms (w8a8) | [card](https://huggingface.co/anguoyang/nanodet) |
 | PicoDet-M 416 | object_detection | 1x3x416x416 | 42.2 ms (float) | data row |
 | YOLOv11-N | object_detection | 1x3x640x640 | 5.0 ms (w8a8) | [card](https://huggingface.co/anguoyang/yolo11n) |
 | YOLOv8-S | object_detection | 1x3x640x640 | 5.0 ms (w8a8) | data row |
+| Cross-view Transformers CVT | segmentation | 6 cameras 1x3x224x480 + intrinsics/extrinsics | 1,404.2 ms (float) | [card](https://huggingface.co/anguoyang/cvt-qcs6490) |
+| DDRNet-23-slim | segmentation | 1x3x1024x2048 | 219.8 ms (float) | [card](https://huggingface.co/anguoyang/ddrnet23-slim-qcs6490) |
 | DeepLabV3+ MobileNet | segmentation | 1x3x520x520 | 154.7 ms (float) | [card](https://huggingface.co/anguoyang/deeplabv3-plus-mobilenet-qcs6490) |
 | SegFormer Base | segmentation | 1x3x512x512 | 97.6 ms (float) | [card](https://huggingface.co/anguoyang/segformer-base-qcs6490) |
 | Depth Anything V2 | depth_estimation | 1x3x518x518 | 1,589.6 ms (float) | [card](https://huggingface.co/anguoyang/depth-anything-v2-qcs6490) |
 | MiDaS | depth_estimation | 1x3x256x256 | 36.6 ms (float) | [card](https://huggingface.co/anguoyang/midas-qcs6490) |
 | MoveNet | pose_estimation | 1x3x192x192 | 17.7 ms (float) | [card](https://huggingface.co/anguoyang/movenet-qcs6490) |
 | PoseNet MobileNet | pose_estimation | 1x3x513x257 | 23.0 ms (float) | [card](https://huggingface.co/anguoyang/posenet-mobilenet-qcs6490) |
+| ESRGAN | super_resolution | 1x3x128x128 | 1,638.1 ms (float) | [card](https://huggingface.co/anguoyang/esrgan-qcs6490) |
 | QuickSRNet Medium | super_resolution | 1x3x128x128 | 12.9 ms (float) | [card](https://huggingface.co/anguoyang/quicksrnet-medium-qcs6490) |
 | Real-ESRGAN x4plus | super_resolution | 1x3x128x128 | 1,639.8 ms (float) | [card](https://huggingface.co/anguoyang/real-esrgan-x4plus-qcs6490) |
 | SESR-M5 | super_resolution | 1x3x128x128 | 40.4 ms (float) | [card](https://huggingface.co/anguoyang/sesr-m5-qcs6490) |
