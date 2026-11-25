@@ -34,6 +34,8 @@ CARD = {
     "detr-resnet50": "anguoyang/detr-resnet50-qcs6490",
     "ddrnet23-slim": "anguoyang/ddrnet23-slim-qcs6490",
     "esrgan": "anguoyang/esrgan-qcs6490",
+    "depth-anything-v3": "anguoyang/depth-anything-v3-qcs6490",
+    "repvit": "anguoyang/repvit-qcs6490",
 }
 GENAI_TEXT = {
     "qwen3-0.6b": "prefill 1,555 tok/s · decode 24.6 tok/s (w4a16, cl512)",

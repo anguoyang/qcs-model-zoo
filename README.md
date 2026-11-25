@@ -24,6 +24,7 @@ numbers, the card says so and states the protocol difference.
 | DenseNet-121 | image_classification | 1x3x224x224 | 38.4 ms (float) | [card](https://huggingface.co/anguoyang/densenet121-qcs6490) |
 | EfficientNet-Lite4 | image_classification | 1x3x300x300 | 28.0 ms (float) | [card](https://huggingface.co/anguoyang/efficientnet-lite4-qcs6490) |
 | MobileNetV3-Small | image_classification | 1x3x224x224 | 3.7 ms (float) | [card](https://huggingface.co/anguoyang/mobilenet-v3-small-qcs6490) |
+| RepViT | image_classification | 1x3x224x224 | 36.3 ms (float) | [card](https://huggingface.co/anguoyang/repvit-qcs6490) |
 | DAMO-YOLO-S | object_detection | 1x3x640x640 | 13.3 ms (w8a8) | [card](https://huggingface.co/anguoyang/damoyolo) |
 | DETR-ResNet50 | object_detection | 1x3x640x640 | 414.9 ms (float) | [card](https://huggingface.co/anguoyang/detr-resnet50-qcs6490) |
 | NanoDet-Plus-m 416 | object_detection | 1x3x416x416 | 6.5 ms (w8a8) | [card](https://huggingface.co/anguoyang/nanodet) |
@@ -35,6 +36,7 @@ numbers, the card says so and states the protocol difference.
 | DeepLabV3+ MobileNet | segmentation | 1x3x520x520 | 154.7 ms (float) | [card](https://huggingface.co/anguoyang/deeplabv3-plus-mobilenet-qcs6490) |
 | SegFormer Base | segmentation | 1x3x512x512 | 97.6 ms (float) | [card](https://huggingface.co/anguoyang/segformer-base-qcs6490) |
 | Depth Anything V2 | depth_estimation | 1x3x518x518 | 1,589.6 ms (float) | [card](https://huggingface.co/anguoyang/depth-anything-v2-qcs6490) |
+| Depth Anything V3 | depth_estimation | 1x3x518x518 | 1,709.1 ms (float) | [card](https://huggingface.co/anguoyang/depth-anything-v3-qcs6490) |
 | MiDaS | depth_estimation | 1x3x256x256 | 36.6 ms (float) | [card](https://huggingface.co/anguoyang/midas-qcs6490) |
 | MoveNet | pose_estimation | 1x3x192x192 | 17.7 ms (float) | [card](https://huggingface.co/anguoyang/movenet-qcs6490) |
 | PoseNet MobileNet | pose_estimation | 1x3x513x257 | 23.0 ms (float) | [card](https://huggingface.co/anguoyang/posenet-mobilenet-qcs6490) |
