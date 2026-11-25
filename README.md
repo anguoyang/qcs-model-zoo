@@ -38,6 +38,7 @@ numbers, the card says so and states the protocol difference.
 | Depth Anything V2 | depth_estimation | 1x3x518x518 | 1,589.6 ms (float) | [card](https://huggingface.co/anguoyang/depth-anything-v2-qcs6490) |
 | Depth Anything V3 | depth_estimation | 1x3x518x518 | 1,709.1 ms (float) | [card](https://huggingface.co/anguoyang/depth-anything-v3-qcs6490) |
 | MiDaS | depth_estimation | 1x3x256x256 | 36.6 ms (float) | [card](https://huggingface.co/anguoyang/midas-qcs6490) |
+| MediaPipe Hand Detection | pose_estimation | 1x3x256x256 | 26.9 ms (float) | [card](https://huggingface.co/anguoyang/mediapipe-hand-qcs6490) |
 | MoveNet | pose_estimation | 1x3x192x192 | 17.7 ms (float) | [card](https://huggingface.co/anguoyang/movenet-qcs6490) |
 | PoseNet MobileNet | pose_estimation | 1x3x513x257 | 23.0 ms (float) | [card](https://huggingface.co/anguoyang/posenet-mobilenet-qcs6490) |
 | ESRGAN | super_resolution | 1x3x128x128 | 1,638.1 ms (float) | [card](https://huggingface.co/anguoyang/esrgan-qcs6490) |
