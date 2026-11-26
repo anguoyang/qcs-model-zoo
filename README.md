@@ -71,3 +71,8 @@ Measurement data in this repo: CC BY 4.0. Generator code: MIT. Model weights and
 belong to their respective owners under their own licenses. This is an independent
 community project — **not affiliated with or endorsed by Qualcomm Technologies, Inc.**
 Qualcomm, Snapdragon and Dragonwing are trademarks of Qualcomm Incorporated.
+
+## Related projects
+
+- [qcs-bench](https://github.com/anguoyang/qcs-bench) — the full QCS6490 measurement dataset behind these cards
+- [rk-bench](https://github.com/anguoyang/rk-bench) — the flagship leaderboard: RK3588 latency table plus the cross-chip GenAI table (RK3588 + QCS6490), failures included
