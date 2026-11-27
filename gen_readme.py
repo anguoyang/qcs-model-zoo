@@ -37,6 +37,11 @@ CARD = {
     "depth-anything-v3": "anguoyang/depth-anything-v3-qcs6490",
     "repvit": "anguoyang/repvit-qcs6490",
     "mediapipe-hand": "anguoyang/mediapipe-hand-qcs6490",
+    "convnext-v2-base": "anguoyang/convnext-v2-base-qcs6490",
+    "dfine": "anguoyang/dfine-qcs6490",
+    "electra-bert-base-discrim-google": "anguoyang/electra-bert-base-discrim-google-qcs6490",
+    "yamnet": "anguoyang/yamnet-qcs6490",
+    "mobilesam": "anguoyang/mobilesam-qcs6490",
 }
 GENAI_TEXT = {
     "qwen3-0.6b": "prefill 1,555 tok/s · decode 24.6 tok/s (w4a16, cl512)",
